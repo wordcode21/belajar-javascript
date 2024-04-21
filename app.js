@@ -33,9 +33,18 @@ if(panjang == "10"){
 }else{
     console.log("salah");
 }
-//jika ingin mengecek dengan tipe data dan nilai sekaligus menggunakan "==="
+//jika ingin mengecek dengan tipe data dan nilai sekaligus menggunakan "===" dan "!=="
 if(panjang === "10"){
     console.log("tipe data sama");
 }else{
     console.log("berbeda tipe data");
+}
+
+//pengkondisian lebih dari dua kondisi menggunakan else if
+if(typeof(panjang) == "string"){
+    console.log("string");
+}else if(typeof(panjang) == "number"){
+    console.log("number")
+}else{
+    console.log("bukan diantaranya")
 }
