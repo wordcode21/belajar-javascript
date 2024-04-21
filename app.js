@@ -23,3 +23,19 @@ for(let i =0 ; i<10; i++){
 
 // console.log("let ",i, "diluar fungction perulangan"); 
 // kode diatas akan menghasilkan eror karena nilai i tidak bisa diakses diluar blok dimana dalam hal ini perulangan
+
+//pengkondisian
+//operator pada pengkondisian ada ==,>=,<=,!=
+// kondisi yang dicek dengan == hanya akan mengcek nilai saja tanpa tipe data
+panjang = 10;
+if(panjang == "10"){
+    console.log("benar");
+}else{
+    console.log("salah");
+}
+//jika ingin mengecek dengan tipe data dan nilai sekaligus menggunakan "==="
+if(panjang === "10"){
+    console.log("tipe data sama");
+}else{
+    console.log("berbeda tipe data");
+}
