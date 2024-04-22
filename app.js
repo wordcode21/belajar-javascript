@@ -1,4 +1,5 @@
-let nama = "agus";
+const prompt = require("prompt-sync")({ sigint: true });
+const nama = prompt("Masukan nama:");
 
 if (nama === "agus"){
     console.log("halo nama saya agus");
